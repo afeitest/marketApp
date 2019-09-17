@@ -1,0 +1,8 @@
+.slideInRight-enter-active, .slideInRight-leave-active {
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.slideInRight-enter, .slideInRight-leave-to {
+    margin-left: 100%;
+}

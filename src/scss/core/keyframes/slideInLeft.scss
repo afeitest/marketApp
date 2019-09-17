@@ -1,0 +1,10 @@
+.slideInLeft-enter-active, .slideInLeft-leave-active {
+    transition: transform .8s ease;
+    -moz-transition: transform .8s ease;
+    -webkit-transition: transform .8s ease;
+}
+.slideInLeft-enter, .slideInLeft-leave-to {
+    transform: translate(-100%,0);
+    -moz-transform: translate(-100%,0);
+    -webkit-transform: translate(-100%,0);
+}

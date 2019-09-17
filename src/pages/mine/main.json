@@ -1,0 +1,13 @@
+{
+    "navigationBarTitleText": "我的",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#f1f1f1",
+    "usingComponents": {
+        "md-button": "../static/common/button/index",
+        "md-icon": "../static/common/icon/index",
+        "md-cell-group": "../static/common/cell-group/index",
+        "md-cell": "../static/common/cell/index",
+        "md-input": "../static/common/input/index"
+    }
+}

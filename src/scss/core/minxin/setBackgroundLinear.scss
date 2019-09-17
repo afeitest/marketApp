@@ -1,0 +1,6 @@
+//背景渐变
+@mixin setBackgroundLinear($str){
+    background: linear-gradient($str);
+    background: -webkit-linear-gradient($str);
+    background: -moz-linear-gradient($str);
+}

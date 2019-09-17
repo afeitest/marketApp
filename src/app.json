@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/counter/main",
+        "pages/manage/main",
+        "pages/mine/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#666",
+        "backgroundColor": "#fefefe",
+        "selectedColor": "#377ff6",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "扫码",
+                "pagePath": "pages/index/main",
+                "iconPath": "static/tabs/sm.png",
+                "selectedIconPath": "static/tabs/sm-active.png"
+            },
+            {
+                "text": "销售统计",
+                "pagePath": "pages/counter/main",
+                "iconPath": "static/tabs/tj.png",
+                "selectedIconPath": "static/tabs/tj-active.png"
+            },
+            {
+                "text": "商品管理",
+                "pagePath": "pages/manage/main",
+                "iconPath": "static/tabs/gl.png",
+                "selectedIconPath": "static/tabs/gl-active.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/mine/main",
+                "iconPath": "static/tabs/wd.png",
+                "selectedIconPath": "static/tabs/wd-active.png"
+            }
+        ],
+        "position": "bottom"
+    }
+}

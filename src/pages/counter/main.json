@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "销售统计",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": true,
+    "usingComponents": {
+        "md-icon": "../static/common/icon/index"
+    }
+}
